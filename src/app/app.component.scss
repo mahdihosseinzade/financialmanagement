@@ -1,0 +1,57 @@
+#UserInfoPage {
+  .menu {
+    background-color: aliceblue;
+
+    header {
+      border-bottom: 1px solid rgb(112, 110, 110);
+    }
+
+    div {
+      flex-direction: column;
+    }
+
+    section {
+      mat-expansion-panel {
+        box-shadow: none;
+        margin-top: 1rem;
+        background-color: unset;
+
+        mat-icon {
+          color: rgb(163, 163, 163);
+          margin-left: 0.5rem;
+          font-size: 1rem;
+        }
+
+        
+      }
+    }
+  }
+
+  .list{
+    
+    header{
+      margin: 0 !important;
+      padding:0 1rem;
+      background-color: aquamarine;
+      display: flex;
+      height: 4rem;
+      align-items: center;
+
+      mat-icon{
+        margin-left: 0.5rem;
+      }
+
+      h3{
+        margin: 0;
+      }
+    }
+
+    section{
+      &>div{
+        display: flex;
+        padding: 1rem 1rem;
+        border-bottom: 1px solid #ddd;
+      }
+    }
+  }
+}

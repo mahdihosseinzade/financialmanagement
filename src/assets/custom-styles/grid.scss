@@ -1,0 +1,12 @@
+.grid-tile-column{
+    
+    &>div{
+        flex-direction: column;
+        justify-content: unset;
+        align-items: unset;
+
+        header{
+            margin: 1rem;
+        }
+    }
+}
